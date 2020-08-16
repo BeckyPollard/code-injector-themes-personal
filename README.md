@@ -7,4 +7,5 @@ Personal use stuff, just adding these to a repo because the code doesn't sync be
 ### Previews
 
 Spotify - Fairyfloss (open.spotify.com/)
+
 ![Fairyfloss theme](./spotify/spotify-fairyfloss.png)
