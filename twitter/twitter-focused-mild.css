@@ -1,0 +1,30 @@
+/* twitter\.com */
+/* updated: 16.08.2020 */
+/* removes some UI to prevent more distractions */
+
+/****************************/
+/****** SIDEBAR: RIGHT ******/
+div.css-1dbjc4n.r-aqfbo4.r-zso239.r-1udh08x.r-1hycxz {
+  /* hide whole trending sidebar */
+  display: none;
+}
+
+/***************************/
+/****** SIDEBAR: LEFT ******/
+a[aria-label='Search and explore'],
+div.css-1dbjc4n.r-dnmrzs.r-1vvnge1 {
+  /* hide sidebar buttons */
+  display: none !important;
+}
+
+/*********************/
+/****** MISC UI ******/
+div.css-1dbjc4n.r-173mn98.r-14lw9ot.r-1n0n9yc.r-1g4ueg6.r-1upvrn0.r-1mf7evn.r-hvns9x.r-1jte41z {
+  /* hide direct messages popup */
+  display: none;
+}
+
+div.css-1dbjc4n.r-15d164r.r-1x0uki6 {
+  /* hide account switch option */
+  display: none;
+}
