@@ -6,6 +6,10 @@ Personal use stuff, just adding these to a repo because the code doesn't sync be
 
 ### Previews
 
-Spotify - Fairyfloss (open.spotify.com/)
+Spotify - Fairyfloss (open.spotify.com)
 
-![Fairyfloss theme](./spotify/spotify-fairyfloss.png)
+![Spotify Fairyfloss theme](./spotify/spotify-fairyfloss.png)
+
+Instagram - Focused (instagram.com)
+
+![Instagram Fosuced theme](./instagram/instagram-focused.png)
