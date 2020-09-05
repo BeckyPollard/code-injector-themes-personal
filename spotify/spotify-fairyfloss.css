@@ -1,112 +1,98 @@
 /* open\.spotify\.com */
-/* updated: 16.08.2020 */
+/* updated: 04.09.2020 */
 /* based off of fairyfloss by SailorHG https://github.com/sailorhg/fairyfloss */
 
-/******************************/
-/****** COLOUR VARIABLES ******/
+/* COLOUR VARIABLES */
 :root {
   --dark: #1e1b28;
-  --medium: #2f2b40;
+  --medium: #2F2B40;
   --light: #625a88;
-  --accent1: #f3a7bd;
-  --accent2: #b5ffdd;
+  --accent1: #F3A7BD;
+  --accent2: #B5FFDD;
 }
 
-/*************************************/
-/****** USER OPTIONS: TOP RIGHT ******/
-._61ab7cffe8117f2123af98dc70709f39-scss,
-._34098cfd13d48e2910679f35aea2c377-scss:hover,
-._7d5bb5bfd500c0c322fb865b69181717-scss {
-  /* options dropdown */
+/* USER */
+._61ab7cffe8117f2123af98dc70709f39-scss, ._34098cfd13d48e2910679f35aea2c377-scss:hover, ._7d5bb5bfd500c0c322fb865b69181717-scss {
   background: var(--medium) !important;
 }
 
-/***************************/
-/****** SIDEBAR: LEFT ******/
+/* SIDEBAR */
 .spotify-logo--text path {
-  /* spotify logo */
   color: var(--accent1) !important;
 }
 .Root__nav-bar {
-  /* side bar */
+  /* SIDE BAR */
   background: var(--medium) !important;
 }
 ._435d17cddae8437d6182df7623d0c41b-scss._6fe74cef24d5ae2ba99a619cab07aef4-scss {
-  /* hide 'install app' button (preference) */
+  /* HIDE 'INSTALL APP' BUTTON */
   display: none;
 }
 
-/***********************/
-/****** MAIN AREA ******/
+/* MAIN AREA */
 #main {
-  /* main view */
   background: var(--dark) !important;
 }
 h1._77ccab85bb794646035d39a339c41781-scss {
-  /* title of plsylists etc */
   color: var(--accent1) !important;
 }
 ._21f29c9d16bf3b2adbeb2fe04bdcbe8b-scss {
-  /* scrolling header */
-  background: var(--light) !important;
+  /* SCROLL HEADER */
+  background:  var(--light) !important;
 }
 button._11f5fc88e3dec7bfec55f7f49d581d78-scss._238c8d0c29802f43d5fb66614d042cfa-scss {
-  /* remove extra play button (preference) */
   display: none !important;
 }
 ._9764a8966c108117bdf6f47cb601747a-scss {
-  /* album art anti-gradient */
+  /* ALBUM VIEW ANTI-GRADIENT */
   background: transparent !important;
 }
+._1066d722d4c5fe45076daa358de0a969-scss, ._898a0ac18270b333d95d8402650e2c46-scss {
+  /* PLAYLIST VIEW ANTI-GRADIENT */
+    background: transparent !important;
+}
+._59ed5f1313c7c4b211995d2b6463683f-scss {
+    /* PLAYLIST VIEW ANTI-GRADIENT */
+    display: none !important;
+}
 ._1aca8ea6d314e58957d99cc0df0d2ca1-scss {
-  /* album art anti-gradient */
   background-image: none !important;
   background: transparent !important;
 }
 ._17de82b47b8c1954963d20ed56b2f730-scss {
-  /* album art anti-gradient */
   background: transparent !important;
   display: none !important;
 }
 ._3cf7cb92e8b34cd675db241406113852-scss {
-  /* album/song/playlist/etc cards */
+  /* CARDS */
   background: var(--medium) !important;
 }
 ._11f5fc88e3dec7bfec55f7f49d581d78-scss._238c8d0c29802f43d5fb66614d042cfa-scss {
-  /* play button */
+  /* PLAY BUTTON */
   background: var(--accent1) !important;
 }
-.tracklist-row--active .position,
-.tracklist-row--active .tracklist-duration,
-.tracklist-row--active .tracklist-name,
-.tracklist-row--active .tracklist-play-pause {
-  /* active song ui highlight */
+.tracklist-row--active .position, .tracklist-row--active .tracklist-duration, .tracklist-row--active .tracklist-name, .tracklist-row--active .tracklist-play-pause {
   color: var(--accent1) !important;
 }
 
-/************************************/
-/****** BOTTOM NAV NOW PLAYING ******/
+
+/* BOTTOM NAV NOW PLAYING */
 .now-playing-bar-container {
-  /* bottom menu */
   background: var(--medium) !important;
 }
 .control-button--active {
-  /* active control button */
   color: var(--accent2);
 }
 .control-button--active-dot::after {
-  /* dot under active control button */
   background: var(--accent2) !important;
 }
 .control-button--active:not(.control-button--disabled):hover {
-  /* control hover */
   color: var(--accent2);
 }
 .fa20bdf1bbbced663caf5b120c30da57-scss {
-  /* listening status banner */
+  /* YOURE LISTENING ON ANOTHER DEVIDE BANNER */
   background: var(--accent1) !important;
 }
 .fa20bdf1bbbced663caf5b120c30da57-scss::after {
-  /* arrow on listening banner */
   border-bottom: 10px solid var(--accent1) !important;
 }
